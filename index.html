@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Selwy Calculator</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="container">
+            <span class="title">Selwy Calculator</span>
+            <span class="screen"></span>
+            <div class="board">
+                <div class="row">
+                    <button class="btn back-space" onclick="backSpace()" >CE</button>
+                <button class="btn delete" onclick="clrScr()">C</button>
+                <button class="btn calc flaot">.</button>
+                <button class="btn calc division">/</button>
+                </div>
+                <div class="row">
+                    <button class="btn calc digit">7</button>
+                    <button class="btn calc digit">8</button>
+                    <button class="btn calc digit">9</button>
+                    <button class="btn calc times">*</button>
+                </div>
+                <div class="row">
+                    <button class="btn calc digit">4</button>
+                    <button class="btn calc digit">5</button>
+                    <button class="btn calc digit">6</button>
+                    <button class="btn calc minus">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn calc digit">1</button>
+                    <button class="btn calc digit">2</button>
+                    <button class="btn calc digit">3</button>
+                    <button class="btn calc adding">+</button>
+                </div>
+                <div class="row">
+                    <button class="btn calc digit">00</button>
+                    <button class="btn calc digit">0</button>
+                    <button class="btn calc equal">=</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

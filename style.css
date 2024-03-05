@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+body{
+    font-family: Tahoma, sans-serif;
+}
+.parent{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    margin: 100px auto;
+    padding: 5px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+.container .title{
+    font-size:10px;
+    font-weight: bold;
+    background-color: Transparent;
+    padding: 5px;
+}
+.container .screen{
+    height: 40px;
+    padding: 7px 10px;
+    margin: 5px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+}
+.container .board{
+    margin-top: 5px;;
+    padding: 0px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction: column;
+}
+.container .board .row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container .board .btn{
+    width: 60px;
+    height: 60px;
+    margin: 10px; 
+    text-align: center;
+    padding: 3px;
+    font-size: 18px;
+    line-height: 2;
+    border: 0;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 30%), 2px 2px 15px rgb(255 255 255 / 20%);
+    background: transparent;
+    cursor: pointer;
+}
+.container .board .equal{
+    width: 140px;
+}
+.container .board .btn:not(.digit){
+    color: #0075ff;
+}
